@@ -1,0 +1,13 @@
+reglas del lenguaje:
+- TypeScript mantiene la sintaxis basica de JavaScript. 
+- Se debe declarar el tipo de variable, por ejemplo: let edad: number = 20; de lo contrario, devuelve un error
+- las funciones tienen una sintaxis definida para declarar parámetros y opcionalmente, el tipo de retorno:
+	function sumar(a: number, b: number): number {
+		return a + b;
+	}
+
+Caracteristicas particulares preferidas
+
+- puede detectar errores durante el desarrollo y la compilacion
+- compatibilidad con javascript, permitiendo incorporar TypeScript a proyectos existentes
+- facilita el mantenimiento y compresion del codigo
